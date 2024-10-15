@@ -1,0 +1,9 @@
+// Navigate to registration page
+click on "Sign in"
+click on "Sign up"
+Enter email then click Continue button on 'Create Shahid account' page
+save stored value "anonymousEmail" into store value "existingEmail"
+Enter password then click "Create Account" button on "Set password" page
+save stored value "anonymousPass" into store value "existingPass"
+// Input profile name
+Create profile name then click Continue

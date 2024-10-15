@@ -1,0 +1,6 @@
+check that page contains "Hello! Choose who is watching now"
+click "Add profile"
+check that page contains "Create Profile"
+click "Enter the name" under "Choose avatar"
+Enter stored value "profileName" into "Enter the name"
+click "Create Profile" button

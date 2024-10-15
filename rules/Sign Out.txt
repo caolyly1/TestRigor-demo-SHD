@@ -1,0 +1,4 @@
+Click on "My Account" button
+Click "Logout" button
+switch to tab "Sign Out"
+Click "Continue" button from "Sign Out" popup

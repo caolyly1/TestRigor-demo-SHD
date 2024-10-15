@@ -1,0 +1,8 @@
+// Let system enter the credential account on main page
+Open url from stored value "baseURL"
+// Navigate to registration page
+open url from string with parameters "${baseURL}/hub/registration"
+Enter email then click Continue button on 'Create Shahid account' page
+Enter password then click "Create Account" button on "Set password" page
+// Input profile name
+Create profile name then click Continue

@@ -1,0 +1,13 @@
+OPTZ- Access promo page
+OPTZ - On "promo" page, click "Subscribe" button on stored value "packageName",  stored value "packageDescription", stored value "packagePrice", stored value "packageFrequency"
+OPTZ- On 'Create Shahid account' page, enter generated email then click button to continue
+OPTZ- On 'Set Password' page, enter stored value "anonymousPass" then click 'Create Account' button
+OPTZ - Verify that 'Enter payment details' page displays stored value "packageName", stored value "packagePrice", stored value "packageFrequency"
+OPTZ- Entering stored value "card1Number", stored value "card1ExpiryDate", stored value "card1CVV"
+OPTZ - Verify 'Congratulation' page displays stored value "packageName", stored value "packagePeriod", and show "Skip and start watching"
+// Click "Let’s customize your experience" button
+Click button above "Skip and start watching" button
+OPTZ - Enter stored value "profileName" then click 'Continue' button
+Verify Homepage after subscribed
+OPTZ - Verify that 'Account Settings' page displays selected package stored value "packageName", stored value "packageNextPayment"
+OPTZ - Verify stored value "profileName" displays under 'Profile' icon

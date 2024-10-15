@@ -1,0 +1,183 @@
+variables:
+- name: favorite category 1
+  type: TEXT
+- name: favorite category 2
+  type: TEXT
+- name: favorite category 3
+  type: TEXT
+- name: favorite category 4
+  type: TEXT
+- name: favorite category 5
+  type: TEXT
+- name: favorite category 6
+  type: TEXT
+groups:
+- id: 87a93aae-ad26-4e51-8537-a3b02e67f144
+  name: Romance Arab Arabic Suspense Western Musical 0
+  description: CSV Row Import
+  values:
+  - variable: favorite category 1
+    value: Romance
+    type: TEXT
+    pathOrValue: Romance
+  - variable: favorite category 2
+    value: Arab
+    type: TEXT
+    pathOrValue: Arab
+  - variable: favorite category 3
+    value: Arabic
+    type: TEXT
+    pathOrValue: Arabic
+  - variable: favorite category 4
+    value: Suspense
+    type: TEXT
+    pathOrValue: Suspense
+  - variable: favorite category 5
+    value: Western
+    type: TEXT
+    pathOrValue: Western
+  - variable: favorite category 6
+    value: Musical
+    type: TEXT
+    pathOrValue: Musical
+- id: 60266fe7-aa49-4323-bc1a-1ac2f4c4582e
+  name: Khaleeji      1
+  description: CSV Row Import
+  values:
+  - variable: favorite category 1
+    value: Khaleeji
+    type: TEXT
+    pathOrValue: Khaleeji
+  - variable: favorite category 2
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+  - variable: favorite category 3
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+  - variable: favorite category 4
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+  - variable: favorite category 5
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+  - variable: favorite category 6
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+- id: ec6156f4-779c-481d-805c-fdd8e60d5bc8
+  name: Comedy Reality Sports Educational   2
+  description: CSV Row Import
+  values:
+  - variable: favorite category 1
+    value: Comedy
+    type: TEXT
+    pathOrValue: Comedy
+  - variable: favorite category 2
+    value: Reality
+    type: TEXT
+    pathOrValue: Reality
+  - variable: favorite category 3
+    value: Sports
+    type: TEXT
+    pathOrValue: Sports
+  - variable: favorite category 4
+    value: Educational
+    type: TEXT
+    pathOrValue: Educational
+  - variable: favorite category 5
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+  - variable: favorite category 6
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+- id: 126b7c21-12bd-47c2-8b78-9099fa0099bc
+  name: Egyptian Crime Anime    3
+  description: CSV Row Import
+  values:
+  - variable: favorite category 1
+    value: Egyptian
+    type: TEXT
+    pathOrValue: Egyptian
+  - variable: favorite category 2
+    value: Crime
+    type: TEXT
+    pathOrValue: Crime
+  - variable: favorite category 3
+    value: Anime
+    type: TEXT
+    pathOrValue: Anime
+  - variable: favorite category 4
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+  - variable: favorite category 5
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+  - variable: favorite category 6
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+- id: 3d548bc4-ceac-44a3-8c21-d7c686f9663b
+  name: Action Political     4
+  description: CSV Row Import
+  values:
+  - variable: favorite category 1
+    value: Action
+    type: TEXT
+    pathOrValue: Action
+  - variable: favorite category 2
+    value: Political
+    type: TEXT
+    pathOrValue: Political
+  - variable: favorite category 3
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+  - variable: favorite category 4
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+  - variable: favorite category 5
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+  - variable: favorite category 6
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+- id: 5d960937-3379-419c-9b31-4392787630fa
+  name: Documental Musical     5
+  description: CSV Row Import
+  values:
+  - variable: favorite category 1
+    value: Documental
+    type: TEXT
+    pathOrValue: Documental
+  - variable: favorite category 2
+    value: Musical
+    type: TEXT
+    pathOrValue: Musical
+  - variable: favorite category 3
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+  - variable: favorite category 4
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+  - variable: favorite category 5
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+  - variable: favorite category 6
+    value: ""
+    type: TEXT
+    pathOrValue: ""
+applicationId: riXFGnLfp8N5Eyg6u

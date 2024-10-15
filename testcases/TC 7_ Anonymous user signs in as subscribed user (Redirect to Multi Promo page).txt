@@ -1,0 +1,21 @@
+//Preconditions: User has an active subscription
+//Steps 1: Anonymous user opens the website https://shd-14-web.shahid.net/en
+Open URL from stored value "baseURL"
+// Step 2: Click on the “Subscribe” CTA on the header
+Click on "Subscribe" button if exists
+Click on "Try Shahid VIP" button if exists
+// Step 3: On the Multi Promo page, sign in with credentials of an already subscribed user (e.g. ngocdemotest@mbc.com/12345678a)
+Click Subscribe on VIP package from Promo page
+click on "Email address"
+enter stored value "subscribedEmail"
+click "Continue" button
+click on "Enter password"
+enter stored value "subscribedPass"
+Click on "Sign in" button
+// Step 4: Verify that the user is redirected back to the Multi Promo page and that a green trip (confirmation marker) is visible
+grab url and save it as "currentURL"
+check that stored value "currentURL" itself contains "/promo"
+Check that page doesn't contain "Subscribe" button below the stored value "packageVipDescription"
+Check that page contains "Watch Now" button below the stored value "packageVipDescription"
+Click on "Watch Now" button below the stored value "packageVipDescription"
+Verify Homepage after subscribed

@@ -1,0 +1,14 @@
+call api post stored value "endPointSignIn" with headers "Content-Type:application/json" and "Accept:application/json" and body with parameters text starting from next line and ending with [END]
+{
+"email": "${existingEmail}"
+"rawPassword": "${existingPass}"
+"deviceSerial": ""
+"deviceType": ""
+"physicalDeviceType": ""
+"label": ""
+"captchaToken": "HG45YgHr%^&Qad$56GhrF4G466Dhy@%^J6&jD789qAft^@yT%^*JhjyfwDD"
+"terms": true
+"isNewUser": false
+"subscribeToNewsLetter": false
+}
+[END] and get "$.success.userMessage" and save it as "responseData"

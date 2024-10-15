@@ -1,0 +1,15 @@
+check that page contains "Congratulations!"
+// Save the registed account into subscribedEmail variable after subscribing successfully
+save stored value "anonymousEmail" into stored value "subscribedEmail"
+save stored value  "anonymousPass" into stored value "subscribedPass"
+check that page contains stored value "packageBigTimeName"
+// verify that expired date displays
+//Save the full date 29 days from the current date  to global variable packageBigTimeExpired
+save value from expression "var ms = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];var tda = new Date();tda.setDate(tda.getDate()+29); ms[tda.getMonth()] + ' ' + [tda.getDate()] +', ' + tda.getFullYear();" as stored value "packageBigTimeExpired"
+check that page contains stored value "packageBigTimeExpired "
+// The next payment
+//Save the next month from the current date  to global variable packageBigTimeExpired
+save value from expression "var ms = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];var tda = new Date();tda.setDate(tda.getDate()); ms[tda.getMonth()+1] + ' ' + [tda.getDate()] +', ' + tda.getFullYear();" as stored value "packageBigTimeNextPayment"
+//hover button "Skip and start watching"
+check that "Skip and start watching" is clickable if exists
+check that "Watch now" is clickable if exists

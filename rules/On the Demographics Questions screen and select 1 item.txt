@@ -1,0 +1,4 @@
+click XPath "//div[@class='inherit_scrollbar grow overflow-y-auto px-[16px] pb-[24px] font-medium md:px-[32px]']/div[1]/div[2]/span[2]"
+check that property "border-color" of  xpath "//div[@class='inherit_scrollbar grow overflow-y-auto px-[16px] pb-[24px] font-medium md:px-[32px]']/div[1]/div[2]/span[2]" is equal to "rgb(255, 255, 255)"
+check that property "background-color" of  xpath "//div[@class='inherit_scrollbar grow overflow-y-auto px-[16px] pb-[24px] font-medium md:px-[32px]']/div[1]/div[2]/span[2]" is equal to "rgba(243, 244, 247, 1)"
+//check if page contains XPath "//div[@class='inherit_scrollbar grow overflow-y-auto px-[16px] pb-[24px] font-medium md:px-[32px]']/div[1]/div[2]/span[2]/img"

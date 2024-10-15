@@ -1,0 +1,4 @@
+open url "https://shd-14-web.shahid.net/en"
+click on "Sign In"
+click on "email address"
+enter "ngocwebcore1@mbc.com"

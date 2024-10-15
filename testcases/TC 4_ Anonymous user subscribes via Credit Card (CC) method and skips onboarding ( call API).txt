@@ -1,0 +1,11 @@
+Access promo page
+Click Subscribe on VIP package from Promo page
+Enter email then click Continue button on 'Create Shahid account' page
+Enter password then click "Create Account" button on "Set password" page
+Verify  that "Enter payment details" displays VIP package info
+Enter card1 info then click Pay button on "Enter Card Details" page
+Verify "Congratulations" page displays VIP package info
+Click button "Skip and start watching"
+Verify Homepage after subscribed
+// Call API to verify that registered user logged-in via API success and the subscribed package is correct
+OPTZ - API - Sign In, verify that logged user stored value "existingEmail" has subscribed stored value "packageVipSKU"

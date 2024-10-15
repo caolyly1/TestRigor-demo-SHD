@@ -1,0 +1,3 @@
+if stored value "itemName" is not null
+click on stored value "itemName"
+end

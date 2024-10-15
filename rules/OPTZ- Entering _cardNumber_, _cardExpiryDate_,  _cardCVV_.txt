@@ -1,0 +1,17 @@
+enter stored value "cardNumber" into "Card Number" if exists
+enter stored value "cardExpiryDate" into "Expiry Date" if exists
+check that "CVV" is enabled
+enter stored value "cardCVV" into "CVV"
+//click "Select country"
+select "United States" from dropdown "Select country" if exists
+//click "Address"
+enter "1600 Pennsylvania Avenue NW" into "Address" if exists
+//click "Apartment"
+enter "Etown" into "Apartment" if exists
+enter "Washington" into "City" if exists
+// click "State"
+select "District of Columbia" from dropdown "State" if exists
+//select "DC" from dropdown "State"
+enter "20500" into "code" if exists
+check that "Pay" button is clickable
+click on "Pay" button

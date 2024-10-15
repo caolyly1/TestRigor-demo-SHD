@@ -1,0 +1,4 @@
+// On "Create Shahid account" page
+click on "userName"
+generate from template "user.##.###@yopmail.com", then enter into "userName" and save as stored value "anonymousEmail"
+click button below "userName"

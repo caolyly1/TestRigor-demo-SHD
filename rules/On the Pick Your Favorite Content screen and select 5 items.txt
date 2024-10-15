@@ -1,0 +1,6 @@
+click XPath "//div[@id='scrollableDiv']/div/div/button[1]"
+click XPath "//div[@id='scrollableDiv']/div/div/button[3]"
+click XPath "//div[@id='scrollableDiv']/div/div/button[4]"
+click XPath "//div[@id='scrollableDiv']/div/div/button[7]"
+click XPath "//div[@id='scrollableDiv']/div/div/button[9]"
+check that "Continue" button is clickable

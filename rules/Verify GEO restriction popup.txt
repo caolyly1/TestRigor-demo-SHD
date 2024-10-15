@@ -1,0 +1,6 @@
+Switch to tab "Oops… the card used is not valid"
+Check that page contains "Oops… the card used is not valid for subscribing from Jordan . Please select a different card or proceed with the subscription from Netherlands"
+Check that page contains stored value "packageVipName"
+Check that page contains "Price: 10.49 EUR"
+Check that page contains "Proceed" button
+Check that page contains "Change Card" button

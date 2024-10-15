@@ -1,0 +1,8 @@
+// Access "Account Settings" page
+click "My Account"
+click "Account Settings"
+check that page contains "Account Settings"
+check that page contains stored value "packageVipName"
+check that page doesn't contains stored value "packageUpgradeName"
+// "packageVipExpired" value was calculated & saved on Congratulations page
+check that page contains stored value "packageVipNextPayment"

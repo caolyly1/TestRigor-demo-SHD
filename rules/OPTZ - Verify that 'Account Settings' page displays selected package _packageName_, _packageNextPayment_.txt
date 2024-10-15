@@ -1,0 +1,7 @@
+// Access "Account Settings" page
+click "My Account"
+click "Account Settings"
+check that page contains "Account Settings"
+check that page contains stored value "packageName"
+// "packageVipExpired" value was calculated & saved from Congratulations page
+check that page contains stored value "packageNextPayment"

@@ -1,0 +1,126 @@
+storedValues:
+- key: anonymousEmail
+  value: Auto01@yopmail.com
+  type: TEXT
+- key: anonymousPass
+  value: Auto123@
+  type: TEXT
+- key: anonymousProfile
+  value: Hello1
+  type: TEXT
+- key: baseURL
+  value: https://shd-14-web.shahid.net/en
+  type: TEXT
+- key: existingEmail
+  value: Auto01@yopmail.com
+  type: TEXT
+- key: existingPass
+  value: Auto123@
+  type: TEXT
+- key: packageVipName
+  value: VIP
+  type: TEXT
+- key: packageVipPrice
+  value: 11.49
+  type: TEXT
+- key: packageVipPeriod
+  value: 1
+  type: TEXT
+- key: packageVipDescription
+  value: Shahid Originals | Exclusive premieres | Safe kids content | International
+    entertainment
+  type: TEXT
+- key: card1Number
+  value: 4001 5900 0000 0001
+  type: TEXT
+- key: card1ExpiryDate
+  value: 03/30
+  type: TEXT
+- key: card1CVV
+  value: 737
+  type: TEXT
+- key: packageVipFrequency
+  value: Month
+  type: TEXT
+- key: packageUpgradeName
+  value: VIP | BigTime
+  type: TEXT
+- key: packageVipExpired
+  value: "October 30, 2024"
+  type: TEXT
+- key: packageVipNextPayment
+  value: "October 31, 2024"
+  type: TEXT
+- key: profileImage
+  value: User.webp
+  path: /aJDdgfMN4Ph2bdagH/2024-10-02_11-04-08_User.webp
+  type: FILE
+- key: card2Number
+  value: 4166 6766 6766 6746
+  type: TEXT
+- key: card2ExpiryDate
+  value: 03/30
+  type: TEXT
+- key: card2CVV
+  value: 737
+  type: TEXT
+- key: homePrefix
+  value: https://shd-14-web.shahid.net/
+  type: TEXT
+- key: profileName
+  value: UserTemp
+  type: TEXT
+- key: urlAPI
+  value: https://shd-14-api.shahid.net
+  type: TEXT
+- key: endPointSignIn
+  value: https://shd-14-api.shahid.net/proxy/v2.1/usersservice/validateLogin?country=JO
+  type: TEXT
+- key: subscribedEmail
+  value: auto.66.887@testrigor-mail.com
+  type: TEXT
+- key: subscribedPass
+  value: Auto123@
+  type: TEXT
+- key: packageBigTimeDescription
+  value: Live Concerts | Riyadh Season | VIP Entertainment
+  type: TEXT
+- key: packageBigTimeName
+  value: VIP | BigTime
+  type: TEXT
+- key: packageBigTimePrice
+  value: 13.99
+  type: TEXT
+- key: packageBigTimeFrequency
+  value: month
+  type: TEXT
+- key: packageBigTimeExpired
+  value: "November 05, 2024"
+  type: TEXT
+- key: shd-25
+  value: https://shd-25-web.mbc.net/en
+  type: TEXT
+- key: packageVipSKU
+  value: USA_B2C_SHAHID_VIP_1M
+  type: TEXT
+- key: packageBigTimePeriod
+  value: 1
+  type: TEXT
+- key: packageBigTimeNextPayment
+  value: "October 08, 2024"
+  type: TEXT
+- key: packageBigTimeSKU
+  value: USA_B2C_SHAHID_VIP_GEA_1M
+  type: TEXT
+- key: registeredEmail
+  value: ngocwebcore2@mbc.com
+  type: TEXT
+- key: registeredPass
+  value: 12345678a
+  type: TEXT
+- key: shd-14
+  value: https://shd-14-web.shahid.net/en/hub/promo
+  type: TEXT
+- key: url
+  value: https://shahid.mbc.net/en
+  type: TEXT

@@ -1,0 +1,9 @@
+// Relocate to National Park in Jordan
+set geo location "31.86901, 35.88075" // National Park in Jordan
+wait for 2 sec
+//Access main Shahid page
+open url from string with parameters  "${baseURL}/hub/promo"
+//check that button "Subscribe" is enabled
+// click Subscribe button to access Promo page
+//click on "Subscribe" button
+wait for 3 sec

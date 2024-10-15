@@ -1,0 +1,15 @@
+check that page contains "Home"
+check that page contains "My Account"
+// Verify Profile icon
+check that page contains "ShahidHeaderContainer_item-avatar-profile"
+check that page contains "TV Shows"
+check that page contains "Movies"
+check that page contains "Live TV"
+// Can't verify icon next to "My Account" button
+// Verify icon
+//hover on "body > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > header:nth-child(2) > div:nth-child(1) > div:nth-child(12) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1)"
+//click on "Language (Ar) العربيّة (Fr) Français (En) English" image
+//click on image from stored value "Logo" with less than "10" % discrepancy
+//check that page contains image from stored value "profileImage"
+//click by image from stored value "profileImage"
+//click on icon next to "My Account" button

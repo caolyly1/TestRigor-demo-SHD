@@ -1,0 +1,21 @@
+Sign up
+Sign Out
+open url from string with parameters "${baseURL}/hub/registration"
+// Enter existing email
+click on "userName"
+enter stored value "existingEmail" into "userName"
+click "Continue" button  //--> System navigate to Sign In page
+click on "Enter password"
+enter stored value "existingPass"
+Click on "Sign in" button
+Click on "Auto" below "Hello"
+// Step 3: Navigate to account setting>View packages
+Click "My Account" button
+Click "Account Settings"
+Click "View package"
+Click Subscribe on VIP package from Promo page
+Verify  that "Enter payment details" displays VIP package info
+Enter card1 info then click Pay button on "Enter Card Details" page
+Verify "Congratulations" page displays VIP package info
+Verify Homepage after subscribed
+OPTZ - API - Sign In, verify that logged user stored value "existingEmail" has subscribed stored value "packageVipSKU"

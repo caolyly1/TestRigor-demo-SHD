@@ -1,0 +1,10 @@
+// Let system enter the credential account on main page
+Open url from stored value "baseURL"
+// Navigate to registration page
+open url from string with parameters "${baseURL}/hub/registration"
+OPTZ- On 'Create Shahid account' page, enter generated email then click button to continue
+save stored value "anonymousEmail" into stored value "existingEmail"
+OPTZ- On 'Set Password' page, enter stored value "anonymousPass" then click 'Create Account' button
+save stored value "anonymousPass" into store value "existingPass"
+// Input profile name
+Create profile name then click Continue

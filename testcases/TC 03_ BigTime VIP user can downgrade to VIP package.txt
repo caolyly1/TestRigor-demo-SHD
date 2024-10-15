@@ -1,0 +1,2 @@
+OPTZ - Anonymous user subscribes stored value "packageBigTimeName", stored value "packageBigTimeDescription", stored value "packageBigTimePrice", stored value "packageBigTimeFrequency", stored value "packageBigTimeNextPayment", stored value "packageBigTimeExpired", stored value "packageBigTimePeriod"
+OPTZ - Downgrade from stored value "packageBigTimeName" , stored value "packageBigTimeFrequency" to  stored value "packageVipName", stored value "packageVipDescription", stored value "packageVipPrice", stored value "packageVipFrequency"

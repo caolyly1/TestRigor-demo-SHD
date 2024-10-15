@@ -1,0 +1,14 @@
+Open url from stored value "shd-25"
+Register with a new user
+click XPath "//div[@id='scrollableDiv']/div/div/child::div[1]/button"
+check that property "display" of  XPath "//div[@id='scrollableDiv']/div/div/child::div[1]/button/child::div[2]" is equal to "block"
+generate from template "//div[@id='scrollableDiv']/div/div/child::div[#]/button" then save as "testCategory"
+click XPath from stored value "testCategory"
+check that "Continue" button is clickable
+click on "Continue" button
+generate from template "//div[@id='scrollableDiv']/div/div/button[3]" then save as "testVideo"
+click XPath from stored value "testVideo" up to 5 times
+//check if page contains XPath "//div[@id='scrollableDiv']/div/div/child::div[1]/button/div/span/img"
+// click XPath "//div[@id='scrollableDiv']/div/div/child::div[1]/button"
+// click XPath "//div[@id='scrollableDiv']/div/div/child::div[2]/button"
+// click XPath "//div[@id='scrollableDiv']/div/div/child::div[3]/button"

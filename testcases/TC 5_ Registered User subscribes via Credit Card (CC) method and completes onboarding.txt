@@ -1,0 +1,10 @@
+// Preconditon: there is an account which haven't subscribed
+// Register an account & input profile name
+Sign up
+Sign Out
+Sign in with unsubscribed user
+Click on "Subscribe" button
+Click Subscribe on VIP package from promo page
+Enter card1 info then click Pay button on "Enter Card Details" page
+"Congratulations" page displays VIP package info
+Verify Homepage after subscribed

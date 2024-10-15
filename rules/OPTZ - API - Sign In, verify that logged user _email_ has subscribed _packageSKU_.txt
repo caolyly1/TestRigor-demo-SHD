@@ -1,0 +1,17 @@
+call api post stored value "endPointSignIn" with headers "Content-Type:application/json" and "Accept:application/json" and body with parameters text starting from next line and ending with [END]
+{
+"email": "${subscribedEmail}"
+"rawPassword": "${subscribedPass}"
+"deviceSerial": ""
+"deviceType": ""
+"physicalDeviceType": ""
+"label": ""
+"captchaToken": "HG45YgHr%^&Qad$56GhrF4G466Dhy@%^J6&jD789qAft^@yT%^*JhjyfwDD"
+"terms": true
+"isNewUser": false
+"subscribeToNewsLetter": false
+}
+[END] and get "$.success.userMessage" and save it as "responseData" and get "$.user.userName" and save it as "username" and get "$.user.subscriptions" and save it as "subscriptions"
+check stored value "responseData" itself contains "success"
+check stored value "username" itself contains stored value "email"
+check stored value "subscriptions" itself contains stored value "packageSKU"

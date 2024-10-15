@@ -1,0 +1,5 @@
+check that page contains "Create Profile"
+// extract value by regex "(?<=UserName\:)[^ ]+" from "var1" and save it as "generatedUsername"
+Click "Profile name" under "Change profile picture"
+Enter stored value "profileName" into "Profile name" under "Change profile picture"
+click "Continue" button

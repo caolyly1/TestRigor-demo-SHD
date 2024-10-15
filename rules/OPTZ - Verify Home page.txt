@@ -1,0 +1,8 @@
+check that page contains "Home"
+check that page contains "My Account"
+// Verify Profile icon
+check that page contains "ShahidHeaderContainer_item-avatar-profile"
+check that page contains "TV Shows"
+check that page contains "Movies"
+check that page contains "Sports"
+check that page contains "Live TV"

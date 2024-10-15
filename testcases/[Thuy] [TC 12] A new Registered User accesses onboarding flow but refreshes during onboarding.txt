@@ -1,0 +1,25 @@
+Open url from stored value "url"
+// Using reusuable steps to register with a new user
+Register with a new user
+On the Pick Your Favorite Category screen and select 1 item
+// click XPath "//div[@id='scrollableDiv']/div/div/child::div[1]/button"
+// check that property "display" of  xpath "//div[@id='scrollableDiv']/div/div/child::div[1]/button/child::div[2]" is equal to "block"
+click on "Continue" button
+On the Pick Your Favorite Content screen and select 5 items
+// click XPath "//div[@id='scrollableDiv']/div/div/button[1]"
+// click XPath "//div[@id='scrollableDiv']/div/div/button[3]"
+// click XPath "//div[@id='scrollableDiv']/div/div/button[4]"
+// click XPath "//div[@id='scrollableDiv']/div/div/button[7]"
+// click XPath "//div[@id='scrollableDiv']/div/div/button[9]"
+verify user cannot choose the sixth item
+//click XPath "//div[@id='scrollableDiv']/div/div/button[10]"
+//check that property "border-color" of  xpath "//div[@id='scrollableDiv']/div/div/button[10]" is not equal to "rgb(243 244 247/var(--tw-border-opacity))"
+check that "Skip and start watching" button is clickable
+click on "Skip and start watching" button
+//Verify the user is redirected to the Home Page
+check that page contains "Home"
+check that page contains "My Account"
+check that page contains "ShahidHeaderContainer_item-avatar-profile"
+check that page contains "TV Shows"
+check that page contains "Movies"
+check that page contains "Live TV"

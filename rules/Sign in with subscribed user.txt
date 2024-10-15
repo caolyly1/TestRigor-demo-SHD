@@ -1,0 +1,10 @@
+// Access main page to input the credetial account
+open url stored value "baseURL"
+open url from string with parameters "${baseURL}/hub/login"
+click on "Email address"
+enter stored value "subscribedEmail"
+click on "Enter password"
+enter stored value "subscribedPass"
+Click on "Sign in" button
+// choose a profile
+click on stored value "profileName" under "Hello"

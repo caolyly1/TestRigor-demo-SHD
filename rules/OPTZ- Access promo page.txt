@@ -1,0 +1,9 @@
+// Relocate to National Park in Jordan
+set geo location "31.86901, 35.88075" // National Park in Jordan
+wait for 2 sec
+// should not access Promo page by clicking on below button, cause it has error at password page
+//click "Subscribe" button if exist
+//click "Try Shahid VIP" button if exist
+//click "Get offer" button if exist
+// Access 'Promo' page by url
+open url  from string with parameters  "${baseURL}/hub/promo"

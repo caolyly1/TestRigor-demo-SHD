@@ -1,0 +1,6 @@
+click on "Sign in"
+click on "Email address"
+enter stored value "registeredEmail"
+click on "Enter password"
+enter stored value "registeredPass"
+Click on "Sign in" button

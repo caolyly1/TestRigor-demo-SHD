@@ -1,0 +1,24 @@
+grab url and save it as "currentURL"
+check that stored value "currentURL" itself contains stored value "pageN"
+//Check that page contains stored value "promoPageName"
+scroll down until page contains stored value "packageDescription"
+Check that page contains stored value "packageName"
+Check that page contains stored value "packagePrice"
+Check that page contains stored value "packageFrequency"
+//Check that page contains "packageDescription"
+// Click Subscribe button
+grab url and save it as "currentURL"
+check that stored value "currentURL" itself contains stored value "pageN"
+//Check that page contains stored value "promoPageName"
+scroll down until page contains stored value "packageDescription"
+Check that page contains stored value "packageName"
+Check that page contains stored value "packagePrice"
+Check that page contains stored value "packageFrequency"
+Check that button stored value "buttonName" is clickable
+if stored value "buttonName" contains "Select"
+click on "Select" button
+else if stored value "packageDescription" contains stored value "packageVipDescription"
+click on the 1st "Subscribe" button
+else
+double click on the 2nd "Subscribe" button
+end

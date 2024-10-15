@@ -1,0 +1,12 @@
+open url from string with parameters "${baseURL}/hub/manage-subscriptions"
+click on "Switch Package"
+OPTZ - On "change-package" page, click "Select" button on stored value "downgradeName",  stored value "downgradeDescription", stored value "downgradePrice", stored value "downgradeFrequency"
+click "Pay" button
+///////
+click "Watch Now" button
+// Access Subscription Manager page
+open url  from string with parameters  "${baseURL}/hub/manage-subscriptions"
+check that page contains "New plan"
+check that page contains stored value "currentPackageName"
+check that page contains stored value "currentPackageFrequency"
+check that page contains stored value "downgradeName" under "New Package"

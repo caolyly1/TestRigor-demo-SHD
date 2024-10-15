@@ -1,0 +1,18 @@
+Access promo page
+Click "Discover More" on VIP package from Promo page
+Enter email and click Subscribe when discovering
+Enter password then click "Create Account" button on "Set password" page
+Enter card2 info into "Enter Card Details" page
+Verify GEO restriction popup
+click "Proceed" button on the popup
+// Step 12: Verify the system returns to the Payment screen with the price adjusted according to the CC country
+// Step 13: Verify the system returns to the Payment screen with the price adjusted according to the CC country
+// Step 14: Click “Subscribe.”
+//click "Subscribe"
+// Step 15: Verify that the subscription is successful, and the Congrats screen appears
+"Congratulations" page displays VIP package info
+// Step 16: Continue the onboarding flow similarly as outlined in Test Case 10
+//Click "Let's customize your experience" button
+Click button under stored value "packageVipExpired"
+Create profile name then click Continue
+Verify Homepage after logged-in

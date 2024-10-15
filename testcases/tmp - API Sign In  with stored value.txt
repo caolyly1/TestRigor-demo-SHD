@@ -1,0 +1,17 @@
+call api post stored value "endPointSignIn" with headers "Content-Type:application/json" and "Accept:application/json" and body with parameters text starting from next line and ending with [END]
+{
+"email": "hello22@yopmail.com"
+"rawPassword": "Hello123@"
+"deviceSerial": ""
+"deviceType": ""
+"physicalDeviceType": ""
+"label": ""
+"captchaToken": "HG45YgHr%^&Qad$56GhrF4G466Dhy@%^J6&jD789qAft^@yT%^*JhjyfwDD"
+"terms": true
+"isNewUser": false
+"subscribeToNewsLetter": false
+}
+[END] and get "$.success.userMessage" and save it as "responseData" and get "$.user.userName" and save it as "username" and get "$.user.subscriptions" and save it as "subscriptions"
+check stored value "responseData" itself contains "success"
+check stored value "username" itself contains "hello22@yopmail.com"
+check stored value "subscriptions" itself contains "ROW_B2C_SHAHID_VIP_1M"

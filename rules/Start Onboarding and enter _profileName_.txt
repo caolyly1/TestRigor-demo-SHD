@@ -1,0 +1,4 @@
+click on "Let’s customize your experience"
+enter stored value "profileName" into "Profile Name"
+check that button "Continue" is clickable
+click on "Continue" button

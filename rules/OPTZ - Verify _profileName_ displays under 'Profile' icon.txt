@@ -1,0 +1,2 @@
+Click "ShahidHeaderContainer_item-avatar-profile"
+Check that page contains stored value "profileName"

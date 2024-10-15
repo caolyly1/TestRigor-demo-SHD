@@ -1,0 +1,2 @@
+click XPath "//div[@id='scrollableDiv']/div/div/button[10]"
+check that property "border-color" of  xpath "//div[@id='scrollableDiv']/div/div/button[10]" is not equal to "rgb(243 244 247/var(--tw-border-opacity))"

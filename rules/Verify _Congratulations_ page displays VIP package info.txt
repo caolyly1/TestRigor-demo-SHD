@@ -1,0 +1,20 @@
+check that page contains "Congratulations!"
+// Save the registed account into subscribedEmail variable after subscribing successfully
+save stored value "anonymousEmail" into stored value "subscribedEmail"
+save stored value  "anonymousPass" into stored value "subscribedPass"
+check that page contains stored value "packageVipName"
+check that page doesn't contains stored value "packageUpgradeName"
+// verify that expired date displays
+//Save the full date 30 days from the current date  to global variable packageVipExpired
+save value from expression "var ms = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];var tda = new Date();tda.setDate(tda.getDate()+29); ms[tda.getMonth()] + ' ' + [tda.getDate()] +', ' + tda.getFullYear();" as stored value "packageVipExpired"
+check that page contains stored value "packageVipExpired "
+// The next payment
+save value from expression "var ms = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];var tda = new Date();tda.setDate(tda.getDate()); ms[tda.getMonth()+1] + ' ' + [tda.getDate()] +', ' + tda.getFullYear();" as stored value "packageVipNextPayment"
+//hover button "Skip and start watching"
+check that "Skip and start watching" is clickable if exists
+check that "Watch now" is clickable if exists
+//hover button "Let’s customize your experience"
+//check that "Let’s customize your experience" is clickable //enabled
+//check that "button[class='btn xs:h-[40px] sm:h-[40px] md:vw-h-[40] lg:vw-h-[40] xl:vw-h-[40] 2xl:vw-h-[40] w-full btn-nsf-primary vw-max-w-[288] vw-mb-[12]']" is clickable
+// CSS Selector: button[class='btn xs:h-[40px] sm:h-[40px] md:vw-h-[40] lg:vw-h-[40] xl:vw-h-[40] 2xl:vw-h-[40] w-full btn-nsf-primary vw-max-w-[288] vw-mb-[12]']
+// CSS Selector: button[class='btn xs:h-[40px] sm:h-[40px] md:vw-h-[40] lg:vw-h-[40] xl:vw-h-[40] 2xl:vw-h-[40] w-full btn-nsf-secondary text-white vw-max-w-[288] vw-px-[2] disabled:bg-[#66778c] disabled:text-light-blue-2'] span

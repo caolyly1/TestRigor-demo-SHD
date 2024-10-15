@@ -1,0 +1,12 @@
+OPTZ - Sign up
+double click on stored value "favorite category 1"
+OPTZ - select stored value "favorite category 2" if it is not null
+OPTZ - select stored value "favorite category 3" if it is not null
+OPTZ - select stored value "favorite category 4" if it is not null
+OPTZ - select stored value "favorite category 5" if it is not null
+if stored value "favorite category 6" is not null
+click on stored value "favorite category 6"
+check that stored value "favorite category 6" is not checked
+
+end
+OPTZ - API verify favorited categories

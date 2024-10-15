@@ -1,0 +1,4 @@
+check that page contains "Enter payment details"
+check that page contains stored value "packageVipName"
+check that page contains stored value "packageVipPrice"
+check that page contains stored value "packageVipFrequency"

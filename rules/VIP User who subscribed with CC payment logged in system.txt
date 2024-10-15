@@ -1,0 +1,13 @@
+Access promo page
+Click Subscribe on VIP package from Promo page
+Enter email then click Continue button on 'Create Shahid account' page
+OPTZ- On 'Set Password' page, enter stored value "anonymousPass" then click 'Create Account' button
+Verify  that "Enter payment details" displays VIP package info
+Enter card1 info then click Pay button on "Enter Card Details" page
+Verify "Congratulations" page displays VIP package info
+// Click "Let’s customize your experience" button
+Click button under stored value "packageVipExpired"
+// Step 12: On 'Create Profile' screen, enter profile name. Then click 'Continue' button
+Create profile name then click Continue
+Verify Homepage after logged-in
+Verify that "Account Settings" page displays VIP info

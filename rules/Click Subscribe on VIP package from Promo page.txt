@@ -1,0 +1,11 @@
+grab url and save it as "currentURL"
+check that stored value "currentURL" itself contains "/promo"
+//Check that page contains stored value "promoPageName"
+scroll down until page contains stored value "packageVipDescription"
+Check that page contains stored value "packageVipName"
+Check that page contains stored value "packageVipPrice"
+Check that page contains stored value "packageVipFrequency"
+//Check that page contains "packageDescription"
+// Click Subscribe button
+Check that button "Subscribe" is clickable
+Click on "Subscribe" below the stored value "packageVipDescription"

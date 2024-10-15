@@ -1,0 +1,8 @@
+grab url and save it as "currentURL"
+check that stored value "currentURL" itself contains "/promo"
+scroll down until page contains stored value "packageVipDescription"
+Check that page contains stored value "packageVipName"
+Check that page contains stored value "packageVipPrice"
+Check that page contains stored value "packageVipFrequency"
+// Enter email then click Subscribe button
+Enter email then click Continue button on 'Create Shahid account' page
